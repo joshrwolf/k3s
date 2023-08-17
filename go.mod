@@ -97,7 +97,7 @@ require (
 	github.com/containerd/zfs v1.1.0
 	github.com/coreos/go-iptables v0.6.0
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf
-	github.com/docker/docker v23.0.3+incompatible
+	github.com/docker/docker v24.0.0+incompatible
 	github.com/erikdubbelboer/gspt v0.0.0-20190125194910-e68493906b83
 	github.com/flannel-io/flannel v0.22.1
 	github.com/go-bindata/go-bindata v3.1.2+incompatible
@@ -143,7 +143,7 @@ require (
 	go.uber.org/zap v1.24.0
 	golang.org/x/crypto v0.10.0
 	golang.org/x/net v0.10.0
-	golang.org/x/sync v0.1.0
+	golang.org/x/sync v0.2.0
 	golang.org/x/sys v0.9.0
 	google.golang.org/grpc v1.53.0
 	gopkg.in/yaml.v2 v2.4.0
@@ -226,7 +226,7 @@ require (
 	github.com/cyphar/filepath-securejoin v0.2.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/daviddengcn/go-colortext v1.0.0 // indirect
-	github.com/docker/cli v23.0.3+incompatible // indirect
+	github.com/docker/cli v24.0.0+incompatible // indirect
 	github.com/docker/distribution v2.8.2+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.7.0 // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
@@ -263,7 +263,7 @@ require (
 	github.com/google/cel-go v0.12.6 // indirect
 	github.com/google/gnostic v0.5.7-v3refs // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
-	github.com/google/go-containerregistry v0.7.0 // indirect
+	github.com/google/go-containerregistry v0.16.1 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/pprof v0.0.0-20210720184732-4bb14d4b1be1 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
@@ -348,14 +348,14 @@ require (
 	github.com/seccomp/libseccomp-golang v0.9.2-0.20220502022130-f33da4d89646 // indirect
 	github.com/shengdoushi/base58 v1.0.0 // indirect
 	github.com/soheilhy/cmux v0.1.5 // indirect
-	github.com/spf13/cobra v1.6.1 // indirect
+	github.com/spf13/cobra v1.7.0 // indirect
 	github.com/stefanberger/go-pkcs11uri v0.0.0-20201008174630-78d3cae3a980 // indirect
 	github.com/stoewer/go-strcase v1.2.0 // indirect
 	github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635 // indirect
 	github.com/tchap/go-patricia/v2 v2.3.1 // indirect
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20220101234140-673ab2c3ae75 // indirect
 	github.com/urfave/cli/v2 v2.23.5 // indirect
-	github.com/vbatts/tar-split v0.11.2 // indirect
+	github.com/vbatts/tar-split v0.11.3 // indirect
 	github.com/vishvananda/netns v0.0.4 // indirect
 	github.com/vmware/govmomi v0.30.0 // indirect
 	github.com/xiang90/probing v0.0.0-20221125231312-a49e3df8f510 // indirect
@@ -382,17 +382,17 @@ require (
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.9.0 // indirect
 	golang.org/x/mod v0.10.0 // indirect
-	golang.org/x/oauth2 v0.4.0 // indirect
+	golang.org/x/oauth2 v0.8.0 // indirect
 	golang.org/x/term v0.7.0 // indirect
 	golang.org/x/text v0.10.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
-	golang.org/x/tools v0.8.0 // indirect
+	golang.org/x/tools v0.9.1 // indirect
 	golang.zx2c4.com/wireguard v0.0.0-20220117163742-e0b8f11489c5 // indirect
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20211230205640-daad0b7ba671 // indirect
 	google.golang.org/api v0.60.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20230306155012-7f2fa6fef1f4 // indirect
-	google.golang.org/protobuf v1.29.1 // indirect
+	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/gcfg.v1 v1.2.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect

@@ -15,6 +15,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/google/go-containerregistry/pkg/registry"
 	"github.com/gorilla/mux"
 	"github.com/k3s-io/k3s/pkg/bootstrap"
 	"github.com/k3s-io/k3s/pkg/cli/cmds"
@@ -98,6 +99,7 @@ func router(ctx context.Context, config *Config, cfg *cmds.Server) http.Handler 
 	router.PathPrefix(staticURL).Handler(serveStatic(staticURL, staticDir))
 	router.Path("/cacerts").Handler(cacerts(serverConfig.Runtime.ServerCA))
 	router.Path("/ping").Handler(ping())
+	router.PathPrefix("/v2").Handler(registry.New(registry.WithBlobHandler(registry.NewInMemoryBlobHandler()), registry.WithReferrersSupport(true)))
 
 	return router
 }
